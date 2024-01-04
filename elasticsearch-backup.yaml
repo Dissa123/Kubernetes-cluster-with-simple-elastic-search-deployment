@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: elasticsearch-backup
-            image: your-backup-image:tag
+            image: backup-img
             env:
             - name: ELASTICSEARCH_HOST
               value: "elasticsearch-service-name"
