@@ -1,0 +1,5 @@
+kibana:
+  enabled: true
+  service:
+    enabled: true
+    port: 5601

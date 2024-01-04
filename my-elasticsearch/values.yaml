@@ -1,0 +1,15 @@
+elasticsearch:
+  enabled: true
+  replicas: 3
+  resources:
+    requests:
+      memory: "512Mi"
+      cpu: "250m"
+    limits:
+      memory: "1Gi"
+      cpu: "500m"
+
+service:
+  enabled: true
+  annotations: {}
+  port: 9200
